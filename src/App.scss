@@ -1,0 +1,40 @@
+.p-toast.p-toast-top-right {
+  z-index: 1000;
+  top: 7rem;
+}
+.p-multiselect {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 50px;
+  height: 40px;
+}
+.button-machine {
+  width: 240px;
+  height: 40px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffffff;
+  background: #6f3ed1ff;
+  opacity: 1;
+  border: none;
+  border-radius: 4px;
+}
+.button-machine:hover {
+  color: #ffffffff;
+  background: #582ab4ff;
+} 
+.p-dropdown .p-dropdown-label.p-placeholder {
+  color: rgb(255 255 255) !important;
+}
